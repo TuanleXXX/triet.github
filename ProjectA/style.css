@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 24px;
+}
+a:hover{
+    color: rgb(255, 255, 255, 0.8);
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white solid 1px;
+}
+section{
+    padding: 40px;
+    border-bottom: white solid 1px;
+}
+h1{
+    font-size: 64px;
+    width: 60%;
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+  
+}
+.collections{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 300px;
+    height: 450px;
+}
+.collection h2{
+    margin: 20px 0 0 0;
+}
+.collection img{
+    width: 100%;
+    height: auto;
+}
+.collection a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 2px;
+    text-align: center;
+}
+.collection a:hover{
+    color: rgb(255, 255, 255, 0.8);
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+section .view_all{
+    text-align: center;
+    margin-top: 40px;
+}
+section .view_all a{
+    font-size: 15px;
+}
+.events{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+    .event{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 300px;
+        margin:auto;
+        border: white solid 1px;
+        padding: 20px;
+        text-align: center;
+        gap: 30px;
+    }
+.event .text {
+    height: 50%;
+}
+.event .text h2{
+    font-weight: lighter;
+}
+.event .text p{
+    font-size: 18px;
+}
+.event .btn{
+    padding: 30px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.event .btn a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+.box4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box4 .big_img{
+    width: 50%;
+}
+.box4 .text{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box4 .text h2{
+    font-size: 60px;
+}
+.newsletter input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.newsletter button{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+footer .logo a p{
+    font-size: 30px;
+}
